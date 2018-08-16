@@ -9,5 +9,14 @@ public class Operasi_String01 {
     public static void main(String[] args) {
     String identitas = "Rafi Raihan Firdaus / X RPL 2 / 26";
     System.out.println("Identitas : " + identitas);
+    String x = "operasi";
+        System.out.println("isi variable x : "+ x);
+        System.out.println("\""+ x + "\" panjang karakter = "+ x.length());
+        
+        System.out.println("x adalah kosong : " + x.isEmpty());
+        
+        String y = "";
+        System.out.println("isi variable y : "+ y);
+        System.out.println("y adalah kosong : " + y.isEmpty());
     }
 }
